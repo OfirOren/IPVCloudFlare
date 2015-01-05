@@ -12,6 +12,11 @@
             "TOS":"http://www.ipvtec.com/terms/",
             "has_js": false
         },
+        "assets":{
+            "logos" : [
+                "./public/images/IPVlogo.png"
+            ]
+        },
         "interface": [
             {
                 "type": "string",
