@@ -1,11 +1,12 @@
 {
-    
     "name": "IPVMon",
     "description": "Describe the app in a sentence or two",
     "version": "0.1",
     "category": "webmaster",
-    "config":{
-        "details":{
+    "config":
+    {
+        "details":
+        {
             "Category": "Webmaster Tools",
             "Language": "English",
             "Price": "Free",
@@ -13,13 +14,16 @@
             "TOS":"http://www.ipvtec.com/terms/",
             "has_js": false
         },
-        "assets":{
-            "logos" : {
+        "assets":
+        {
+            "logos":
+            {
                 "200px": "./public/images/logo-200.png",
                 "132px": "./public/images/logo-132.png"
-            },
+            }
         },
-        "interface": [
+        "interface": 
+        [
             {
                 "type": "string",
                 "id": "email",
@@ -33,7 +37,8 @@
                 "id": "lottery",
                 "name": "Do you Lotto?",
                 "description": "Choose whether to buy a ticket",
-                "options": [
+                "options": 
+                [
                     {
                         "label": "Yes, buy a ticket!",
                         "value": "true"
@@ -46,7 +51,8 @@
             }
         ]
     },
-    "account": {
+    "account": 
+    {
         "callback_url": "http://prod.ipvtec.com/Api/Api",
         "user_fields": ["email"]
     }
