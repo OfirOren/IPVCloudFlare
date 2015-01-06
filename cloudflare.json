@@ -3,10 +3,10 @@
     "name": "IPVMon",
     "description": "Describe the app in a sentence or two",
     "version": "0.1",
-    "category": "analytics",
+    "category": "webmaster",
     "config":{
         "details":{
-            "category": "CloudFlare App example",
+            "category": "Webmaster Tools",
             "Language": "English",
             "Price": "Free",
             "Restrictions": "None",
