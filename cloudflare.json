@@ -6,6 +6,7 @@
     "category": "analytics",
     "config":{
         "details":{
+            "category": "analytics",
             "Language": "English",
             "Price": "Free",
             "Restrictions": "None",
