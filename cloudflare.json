@@ -1,7 +1,7 @@
 {
     "name": "IPVMon",
-    "description": "Describe the app in a sentence or two",
-    "version": "0.2",
+    "description": "IPVmon is a malicious detection behavioral analysis system that watches your website from the cloud 24×7 and alerts you when malicious anomaly activity occurs.",
+    "version": "0.3",
     "category": "webmaster",
     "config":
     {
@@ -18,8 +18,8 @@
         {
             "logos":
             {
-                "200px": "./public/images/logo-200.png",
-                "132px": "./public/images/logo-132.png"
+                "200px": "./public/images/ipvmon-200.png",
+                "132px": "./public/images/ipvmon-132.png"
             }
         },
         "interface": 
@@ -27,33 +27,29 @@
             {
                 "type": "string",
                 "id": "email",
-                "name": "Account Email",
                 "description": "Please insert your email.",
                 "domain_request": true,
                 "private": true
             },
             {
-                "type": "select",
-                "id": "lottery",
-                "name": "Do you Lotto?",
-                "description": "Choose whether to buy a ticket",
-                "options": 
-                [
-                    {
-                        "label": "Yes, buy a ticket!",
-                        "value": "true"
-                    },
-                    {
-                        "label": "No, I am scared.",
-                        "value": ""
-                    }
-                ]
+                "type": "string",
+                "id": "firstName",
+                "description": "Please insert your first name.",
+                "domain_request": true,
+                "private": true
+            },
+            {
+                "type": "string",
+                "id": "lastName",
+                "description": "Please insert your last name.",
+                "domain_request": true,
+                "private": true
             }
         ]
     },
     "account": 
     {
-        "callback_url": "http://prod.ipvtec.com/Api/Api",
-        "user_fields": ["email"]
+        "callback_url": "http://208.109.97.62/Api/Api/SetRegistration",
+        "user_fields": ["email", "firstName", "lastName"]
     }
 }
