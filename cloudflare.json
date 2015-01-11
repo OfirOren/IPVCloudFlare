@@ -1,7 +1,7 @@
 {
     "name": "IPVMon",
     "description": "IPVmon is a malicious detection behavioral analysis system that watches your website from the cloud 24×7 and alerts you when malicious anomaly activity occurs.",
-    "version": "0.3",
+    "version": "0.4",
     "category": "webmaster",
     "config":
     {
@@ -63,7 +63,7 @@
     },
     "account": 
     {
-        "callback_url": "http://208.109.97.62/Api/Api/SetRegistration",
+        "callback_url": "http://208.109.97.62/Api/Api/SetCFRegistration",
         "user_fields": ["email", "firstName", "lastName", "country", "companyName"]
     }
 }
