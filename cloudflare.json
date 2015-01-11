@@ -27,21 +27,35 @@
             {
                 "type": "string",
                 "id": "email",
-                "description": "Please insert your email.",
+                "description": "Email:",
                 "domain_request": true,
                 "private": true
             },
             {
                 "type": "string",
                 "id": "firstName",
-                "description": "Please insert your first name.",
+                "description": "First Name:",
                 "domain_request": true,
                 "private": true
             },
             {
                 "type": "string",
                 "id": "lastName",
-                "description": "Please insert your last name.",
+                "description": "Last Name:",
+                "domain_request": true,
+                "private": true
+            },
+            {
+                "type": "string",
+                "id": "country",
+                "description": "Country:",
+                "domain_request": true,
+                "private": true
+            },
+            {
+                "type": "string",
+                "id": "companyName",
+                "description": "Company:",
                 "domain_request": true,
                 "private": true
             }
@@ -50,6 +64,6 @@
     "account": 
     {
         "callback_url": "http://208.109.97.62/Api/Api/SetRegistration",
-        "user_fields": ["email", "firstName", "lastName"]
+        "user_fields": ["email", "firstName", "lastName", "country", "companyName"]
     }
 }
