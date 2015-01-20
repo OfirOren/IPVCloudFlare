@@ -1,7 +1,7 @@
 {
     "name": "IPVMon",
     "description": "IPVmon is a malicious detection behavioral analysis system that watches your website from the cloud 24×7 and alerts you when malicious anomaly activity occurs.",
-    "version": "0.5",
+    "version": "0.6",
     "category": "webmaster",
     "config":
     {
