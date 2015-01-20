@@ -26,13 +26,6 @@
         [
             {
                 "type": "string",
-                "id": "email",
-                "description": "Email:",
-                "domain_request": true,
-                "private": true
-            },
-            {
-                "type": "string",
                 "id": "firstName",
                 "description": "First Name:",
                 "domain_request": true,
@@ -44,26 +37,25 @@
                 "description": "Last Name:",
                 "domain_request": true,
                 "private": true
-            },
-            {
-                "type": "string",
-                "id": "country",
-                "description": "Country:",
-                "domain_request": true,
-                "private": true
-            },
-            {
-                "type": "string",
-                "id": "companyName",
-                "description": "Company:",
-                "domain_request": true,
-                "private": true
             }
         ]
     },
     "account": 
     {
         "callback_url": "http://208.109.97.62/Api/Api",
-        "user_fields": ["email", "firstName", "lastName", "country", "companyName"]
+        "user_fields": ["firstName", "lastName"]
+    },
+    "billing": {
+        "type": "zone",
+        "plans":[
+            {
+                "name" : "Pro 5",
+                "price": "24"
+            },
+            {
+                "name" : "Pro 15",
+                "price" : "45"
+            }
+        ]
     }
 }
