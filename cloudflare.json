@@ -1,7 +1,7 @@
 {
     "name": "IPVMon",
     "description": "IPVmon is a malicious detection behavioral analysis system that watches your website from the cloud 24×7 and alerts you when malicious anomaly activity occurs.",
-    "version": "0.7",
+    "version": "0.8",
     "category": "webmaster",
     "config":
     {
@@ -9,7 +9,6 @@
         {
             "Category": "Webmaster Tools",
             "Language": "English",
-            "Price": "Free",
             "Restrictions": "None",
             "TOS":"http://www.ipvtec.com/terms/",
             "has_js": false
@@ -21,28 +20,23 @@
                 "200px": "./public/images/ipvmon-200.png",
                 "132px": "./public/images/ipvmon-132.png"
             }
-        },
-        "interface": 
-        [
-            {
-                "type": "string",
-                "id": "firstName",
-                "description": "First Name:",
-                "domain_request": true,
-                "private": true
-            },
-            {
-                "type": "string",
-                "id": "lastName",
-                "description": "Last Name:",
-                "domain_request": true,
-                "private": true
-            }
-        ]
+        }
     },
     "account": 
     {
-        "callback_url": "http://208.109.97.62/Api/Api",
-        "user_fields": ["firstName", "lastName"]
+        "callback_url": "http://208.109.97.62/Api/Api"
+    },
+    "billing": {
+        "type": "zone",
+        "plans":[
+            {
+                "name" : "Pro 5",
+                "price": "24"
+            },
+            {
+                "name" : "Pro 15",
+                "price" : "45"
+            }
+        ]
     }
 }
