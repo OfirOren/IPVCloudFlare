@@ -31,11 +31,15 @@
         "plans":[
             {
                 "name" : "Pro 5",
-                "price": "24"
+                "price": "1"
             },
             {
                 "name" : "Pro 15",
-                "price" : "45"
+                "price" : "2"
+            },
+            {
+                "name" : "Pro 30",
+                "price" : "3"
             }
         ]
     }
