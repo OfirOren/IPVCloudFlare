@@ -1,7 +1,7 @@
 {
     "name": "IPVMon",
-    "description": "IPVmon is a malicious detection behavioral analysis system that watches your website from the cloud 24×7 and alerts you when malicious anomaly activity occurs.",
-    "version": "0.9",
+    "description": "Monitor your website 24x7 and get alerts when it is down, hacked, hijacked or defaced. IPVMon is a first-of-its-kind behavioral analysis system that watches your website from the cloud, detects malicious activity, and immediately alerts you.",
+    "version": "0.10",
     "category": "webmaster",
     "config":
     {
@@ -19,27 +19,31 @@
             {
                 "200px": "./public/images/ipvmon-200.png",
                 "132px": "./public/images/ipvmon-132.png"
-            }
+            },
+            "detail_page" : [
+                "./public/images/table.png"
+                "./public/images/all-plans.png"
+                ]
         }
     },
     "account": 
     {
-        "callback_url": "http://208.109.97.62/Api/Api"
+        "callback_url": "http://prod.ipvtec.com/Api/Api"
     },
     "billing": {
         "type": "zone",
         "plans":[
             {
-                "name" : "Pro 5",
-                "price": "1"
+                "name" : "CF Pro 5",
+                "price": "14.95"
             },
             {
-                "name" : "Pro 15",
-                "price" : "2"
+                "name" : "CF Pro 20",
+                "price" : "74.95"
             },
             {
-                "name" : "Pro 30",
-                "price" : "3"
+                "name" : "CF Pro 50",
+                "price" : "249.95"
             }
         ]
     }
