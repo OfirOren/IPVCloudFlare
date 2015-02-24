@@ -21,7 +21,7 @@
                 "132px": "./public/images/ipvmon-132.png"
             },
             "detail_page" : [
-                "./public/images/table.png"
+                "./public/images/table.png",
                 "./public/images/all-plans.png"
                 ]
         }
