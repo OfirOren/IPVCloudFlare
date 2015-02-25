@@ -1,7 +1,7 @@
 {
     "name": "IPVMon",
     "description": "Monitor your website 24x7 and get alerts when it is down, hacked, hijacked or defaced. IPVMon is a first-of-its-kind behavioral analysis system that watches your website from the cloud, detects malicious activity, and immediately alerts you.",
-    "version": "0.11",
+    "version": "0.12",
     "category": "webmaster",
     "config":
     {
