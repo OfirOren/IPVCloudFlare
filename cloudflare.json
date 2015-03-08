@@ -1,7 +1,7 @@
 {
-    "name": "IPVMon",
-    "description": "Monitor your website 24x7 and get alerts when it is down, hacked, hijacked or defaced. IPVMon is a first-of-its-kind behavioral analysis system that watches your website from the cloud, detects malicious activity, and immediately alerts you.",
-    "version": "0.18",
+    "name": "IPVTec",
+    "description": "Monitor your website 24x7 and get alerts when it is down, hacked, hijacked or defaced. IPVTec is a first-of-its-kind behavioral analysis system that watches your website from the cloud, detects malicious activity, and immediately alerts you.",
+    "version": "0.19",
     "category": "analytics",
     "config":
     {
@@ -11,7 +11,7 @@
             "Language": "English",
             "Price": "CF Pro 5: $14.95/month<br/>CF Pro 20: $74.95/month<br/>CF Pro 50: $249.95/month",
             "Restrictions": "Orders and upgrades are managed through your CloudFlare account, and charges will be applied directly to your CloudFlare bill.",
-            "IPVMon": "<a href='http://www.ipvtec.com/terms' target='_blank'>Terms & Conditions</a>",
+            "IPVTec": "<a href='http://www.ipvtec.com/terms' target='_blank'>Terms & Conditions</a>",
             "TOS":"http://www.ipvtec.com/terms/",
             "has_js": false
         },
@@ -23,7 +23,7 @@
                 "132px": "./public/images/ipvmon-132.png"
             },
             "detail_page" : [
-                "./public/images/table.png",
+                "./public/images/table_v1.png",
                 "./public/images/all-plans.png"
                 ]
         }
