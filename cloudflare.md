@@ -1,19 +1,19 @@
-### IPVmon
+### IPVTec
 Monitor your website 24x7 and get alerts when it is down, hacked, hijacked or defaced.
 
-IPVMon is a first-of-its-kind behavioral analysis system that watches your website from the cloud, detects malicious activity, and immediately alerts you.
+IPVTec is a first-of-its-kind behavioral analysis system that watches your website from the cloud, detects malicious activity, and immediately alerts you.
 
 
 ### Your 24x7 Website Watchdog!
-IPVmon analyses the behavior of your website and search for anomalies that trigger its detection sensors for malicious activity.
+IPVTec analyses the behavior of your website and search for anomalies that trigger its detection sensors for malicious activity.
 
-When a suspicious event occurs, IPVmon alerts you and your colleagues via SMS and e-mail with event details and call-to-action recommendations. IPVmon dashboard enables you to watch the sensors activity and event information 24×7.
+When a suspicious event occurs, IPVTec alerts you and your colleagues via SMS and e-mail with event details and call-to-action recommendations. IPVTec dashboard enables you to watch the sensors activity and event information 24×7.
 
 
 ### Plans for CloudFlare Users
-![Plans](/images/apps/ipvmon/table.png "IPVmon Plans")
+![Plans](/images/apps/ipvmon/table_v1.png "IPVTec Plans")
 
-![Plans Contents](/images/apps/ipvmon/all-plans.png "IPVmon Plans Contents")
+![Plans Contents](/images/apps/ipvmon/all-plans.png "IPVTec Plans Contents")
 
 
 ### Your account Activation
