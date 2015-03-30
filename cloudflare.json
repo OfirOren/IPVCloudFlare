@@ -1,7 +1,7 @@
 {
     "name": "IPVTec",
     "description": "Monitor your website 24x7 and get alerts when it is down, hacked, hijacked or defaced. IPVTec is a first-of-its-kind behavioral analysis system that watches your website from the cloud, detects malicious activity, and immediately alerts you.",
-    "version": "0.19",
+    "version": "0.20",
     "category": "analytics",
     "config":
     {
@@ -30,7 +30,7 @@
     },
     "account": 
     {
-        "callback_url": "http://prod.ipvtec.com/Api/Api"
+        "callback_url": "https://prod.ipvtec.com/Api/Api"
     },
     "billing": {
         "type": "zone",
